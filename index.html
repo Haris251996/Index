@@ -1,30 +1,465 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>code push on a Github Account</title>
-</head>
-<body>
-    <h1>Code Push</h1>
-    <form action="">
-        <div>
-    <label for="">Name</label>
-    <input type="text" placeholder="Enter Your Name">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+    <title>Antique Calligraphy</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-stand-blog.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+<!--
+
+
+-->
+  </head>
+  
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <a href="#" target="_blank">
+   <img style="color: silver; background-color: silver;" src="https://hitwebcounter.com/counter/counter.php?page=8246761&style=0010&nbdigits=5&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>𝒜𝓃𝓉𝒾𝓆𝓊𝑒 𝒞𝒶𝓁𝓁𝒾𝑔𝓇𝒶𝓅𝒽𝓎<em>.</em></h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Calligraphy Types
+                </a>
+                <ul style="background-color: rgba(192, 192, 192, 0.89);" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="trad/index.html">Traditional Calligraphy</a></li>
+                  <li><a class="dropdown-item" href="4page/index (2).html">Contemporary Calligraphy</a></li>
+                  <li><a class="dropdown-item" href="./hand/solid/solid/index.html">Hand-Letter Calligraphy</a></li>
+                  <li><a class="dropdown-item" href="./modern/solid/index.html">Modern Calligraphy</a></li>
+                  <li><a class="dropdown-item" href="design/index.html">Design</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./calli.html/login.html">Sign In</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <style>
+      .col :hover{
+        transition: 1.5s step-start;
+        transform:scale(0.8) ;
+      }
+      .service-box :hover{
+        transition: 0.5s ease-in-out;
+        transform: scale(1.1);
+      }
+
+      @media screen and (min-width: 993px){
+        .dropdown:hover .dropdown-menu{
+          display: block !important;
+        }
+        .dropdown:focus .dropdown-menu{
+          display: block !important;
+        }
+        .dropdown .dropdown-menu.show
+        {
+          display: none !important;
+        }
+      }
+      .scrolltop{
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        width: 60px;
+        height: 60px;
+        background: #fff url(up.png);
+        border-radius: 50%;
+        background-size: 40px;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        z-index: 100000;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+      }
+      .scrolltop:active{
+        visibility: visible;
+        opacity: 1;
+      }
+      .dropdown-item :hover{
+            background: #f48840;
+      }
+    </style>
+    <script>
+      window.addEventListener('scrol', function(){
+        var scroll = document.querySelector('.scrolltop');
+        scroll.classList.toggle("active" , window.scrollY > 500)
+      })
+    </script>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <!--scrolling tiker-->
+
+    <marquee style="background-color: #f48840; color: black;" behavior="scroll" direction="left">𝔄𝔫𝔱𝔦𝔮𝔲𝔢 ℭ𝔞𝔩𝔩𝔦𝔤𝔯𝔞𝔭𝔥𝔶     ...    𝔐𝔞𝔫'𝔰 𝔅𝔢𝔞𝔲𝔱𝔶 ℑ𝔰 ℑ𝔫 𝔗𝔥𝔢 𝔑𝔞𝔱𝔲𝔯𝔢 𝔒𝔣 ℌ𝔦𝔰 𝔚𝔯𝔦𝔱𝔦𝔫𝔤</marquee>
+<br>
+
+    <!--scrolling tiker-->
+    <script>
+      // Get the button:
+  let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+    </script>
+
+    <!-- Page Content -->
+    <div style="width: 100%; margin: 0%; padding: 0%;" class="heading-page header-text">
+      <section class="page-heading">
+        <img src="./assets/images/index.jpg" alt="" style="position: absolute;">
+        
+          
+            <div class="col-lg-12">
+              <div class="text-content">
+               <center> <h2 style="padding: 10px; margin-top: 50px; color: #f48840;"> 𝒜𝓃𝓉𝒾𝓆𝓊𝑒 𝒞𝒶𝓁𝓁𝒾𝑔𝓇𝒶𝓅𝒽𝓎 </h2>
+               &nbsp;
+                <p style="color: white; font-size: 15px; font-family: Arial, Helvetica, sans-serif;">True, the Greek derivation of 'calligraphy' translates simply as 'beautiful writing'. But the word has taken on a larger meaning.Calligraphy is the art of forming beautiful symbols by hand and arranging them well.It’s a set of skills and techniques for positioning and inscribing words so they show integrity, harmony, some sort of ancestry, rhythm and creative fire.
+                  Lettering is a bigger subject than calligraphy: it is everything to do with the formation and use of alphabet letters to communicate meaning, and so it involves typography, sign-writing, graffiti, graphic design and many other disciplines.
+                </p>
+              </center>
+              </div>
+            </div>
+          
+        
+      </section>
     </div>
     
-    <br>
-    <div>
-    <label for="">Email</label>
-    <input type="text" placeholder="Enter Your Email">
-    </div>
-  
-    <br>
-    <div>
-    <label for="">Password</label>
-    <input type="text" placeholder="Enter Your Password">
-    </div>
-    </form>
-</body>
+
+
+    <section class="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="main-content">
+              <div class="row">
+                <div class="col-lg-8">
+                  <span>Calligraphy Fonts</span>
+                  <h4>Creative Fonts For Bloggers!</h4>
+                </div>
+                <div class="col-lg-4">
+                  <div class="main-button">
+                    <a rel="nofollow" href="https://youtu.be/0PHyI7xQfV4" target="_parent">Download Now!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="blog-posts">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="all-blog-posts">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="blog-post">
+                    <div class="blog-thumb">
+                     <a href="#"><img src="assets/images/11.jpg" alt=""></a>
+                    </div>
+                    <div class="down-content">
+                      <span>Font Style</span>
+                      <h4>TRADITIONAL CALLIGRAPHY</h4>
+                     
+                      <p>is what most people think about when the word Calligraphy is mentioned. Example
+                        Unfortunately, we live in a world where people think there are only a few, set-styles within the history of calligraphy, or fonts that you pick from a menu.</p>
+                      <div class="post-options">
+                        <div class="row">
+                          <div class="col-6">
+                            <ul class="post-tags">
+                              <li><i class="fa fa-tags"></i></li>
+                              <li><a href="#">Beauty</a>,</li>
+                              <li><a href="#">Font</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-6">
+                            <ul class="post-share">
+                              <li><i class="fa fa-share-alt"></i></li>
+                              <li><a href="https://www.facebook.com/login/">Facebook</a>,</li>
+                              <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"> Twitter</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="blog-post">
+                    <div class="blog-thumb">
+                    <a href="#"><img src="assets/images/22.jpg" alt=""></a>
+                    </div>
+                    <div class="down-content">
+                      <span>Font Style</span>
+                     <h4>CONTEMPORARY CALLIGRAPHY</h4>
+                      <p>covers a brush calligraphy alphabet, or a logotype or poem based on a modern calligraphy alphabet.
+                        World influences like Asian, Middle-Eastern, or more expressive versions of handwriting can be used. Letters can represent emotion, a voice, or be an illustration of a concept. Examples </p>
+                      <div class="post-options">
+                        <div class="row">
+                          <div class="col-6">
+                            <ul class="post-tags">
+                              <li><i class="fa fa-tags"></i></li>
+                              <li><a href="#">Beauty</a>,</li>
+                              <li><a href="#">Font</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-6">
+                            <ul class="post-share">
+                              <li><i class="fa fa-share-alt"></i></li>
+                              <li><a href="https://www.facebook.com/login/">Facebook</a>,</li>
+                              <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">Twitter</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="blog-post">
+                    <div class="blog-thumb">
+                     <a href="#"><img src="assets/images/33.jpg" alt=""></a> 
+                    </div>
+                    <div class="down-content">
+                      <span>Font Style</span>
+                      <h4>HAND-LETTER CALLIGRAPHY</h4>
+                      <p>for company logos, posters, book titles, wine labels, & special treatments. This section deals with printed and digital applications of hand-lettering. For over 30 years, Ehtisham has designed special book titles, band logos (for record companies), banners for conferences, quotes for Time magazine. Examples</p>
+                      <div class="post-options">
+                        <div class="row">
+                          <div class="col-6">
+                            <ul class="post-tags">
+                              <li><i class="fa fa-tags"></i></li>
+                              <li><a href="#">Beauty</a>,</li>
+                              <li><a href="#">Font</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-6">
+                            <ul class="post-share">
+                              <li><i class="fa fa-share-alt"></i></li>
+                              <li><a href="https://www.facebook.com/login/">Facebook</a>,</li>
+                              <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">Twitter</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                     
+                    <div class="blog-thumb">
+                      <a href="#"><img src="assets/images/44.jpg" alt=""></a> 
+                     </div>
+                    <div class="down-content">
+                      <span>Font Style</span>
+                      <h4>MOERN CALLIGRAPHY</h4>
+                      <p>Modern calligraphy is any calligraphy style that does not follow the fundamental rules of traditional calligraphy scripts such as Copperplate, Spencerian, Italic, Blackletter, etc. Modern calligraphy relies on certain principles of traditional calligraphy. However, it can provide you with more creative freedom.</p>
+                      <div class="post-options">
+                        <div class="row">
+                          <div class="col-6">
+                            <ul class="post-tags">
+                              <li><i class="fa fa-tags"></i></li>
+                              <li><a href="#">Beauty</a>,</li>
+                              <li><a href="#">Font</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-6">
+                            <ul class="post-share">
+                              <li><i class="fa fa-share-alt"></i></li>
+                              <li><a href="https://www.facebook.com/login/">Facebook</a>,</li>
+                              <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">Twitter</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="main-button">
+                    <a href="./calli.html/allfonts.html">View All Fonts</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          
+
+          <div class="col-lg-4">
+            <div class="sidebar">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="sidebar-item search">
+                    <form id="search_form" name="gs" method="GET" action="#">
+                      <input type="text" name="q" class="searchText" placeholder="type to search..." autocomplete="on">
+                    </form>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="sidebar-item recent-posts">
+                    <div class="sidebar-heading">
+                      <h2>Recent Fonts</h2>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li><a href="#">
+                          <h5>Modern Calligraphy</h5>
+                          <span>May 31, 2020</span>
+                        </a></li>
+                        <li><a href="#">
+                          <h5>Brush Calligraphy</h5>
+                          <span>May 28, 2020</span>
+                        </a></li>
+                        <li><a href="#">
+                          <h5>Contemporary Calligraphy</h5>
+                          <span>May 14, 2020</span>
+                        </a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="sidebar-item categories">
+                    <div class="sidebar-heading">
+                      <h2>Categories</h2>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li><a href="#">- Hand-Letters</a></li>
+                        <li><a href="#">- Awesome Fonts</a></li>
+                        <li><a href="#">- Creative Ideas</a></li>
+                        <li><a href="#">- Illustration</a></li>
+                        <li><a href="#">- Creative &amp; Unique</a></li>
+                      </ul>
+                    </div>
+                     <br>
+                     <br>
+
+                    <div class="col-lg-12">
+                      <div class="main-button">
+                        <a href="./calli.html/gallery.html">View Gallery</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="social-icons">
+              <li><a href="https://www.facebook.com/login/">Facebook</a> <i class="fa fa-facebook-official" aria-hidden="true" style="font-size: 20px; color: #f48840;"></i></li>
+              <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">Twitter</a>&nbsp;<i class="fa fa-twitter-square" aria-hidden="true" style="font-size: 20px; color: #f48840;"></i></li>
+              <li><a href="https://auth.services.adobe.com/en_US/index.html?callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fadobeid%2FBehanceWebSusi1%2FAdobeID%2Ftoken%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.behance.net%252Fgallery%252F17019321%252FSign-In%253Fisa0%253D1%2523old_hash%253D%2526from_ims%253Dtrue%2526client_id%253DBehanceWebSusi1%2526api%253Dauthorize%2526scope%253DAdobeID%252Copenid%252Cgnav%252Csao.cce_private%252Ccreative_cloud%252Ccreative_sdk%252Cbe.pro2.external_client%252Cadditional_info.roles%26state%3D%257B%2522ac%2522%253A%2522behance.net%2522%252C%2522csrf%2522%253A%2522fd36cbc7-a3f7-43a1-9ca7-a95e50391713%2522%252C%2522context%2522%253A%257B%2522intent%2522%253A%2522signIn%2522%257D%252C%2522jslibver%2522%253A%2522v2-v0.38.0-17-g633319d%2522%252C%2522nonce%2522%253A%25223856921722222148%2522%257D%26code_challenge_method%3Dplain%26use_ms_for_expiry%3Dtrue&client_id=BehanceWebSusi1&scope=AdobeID%2Copenid%2Cgnav%2Csao.cce_private%2Ccreative_cloud%2Ccreative_sdk%2Cbe.pro2.external_client%2Cadditional_info.roles&denied_callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fdenied%2FBehanceWebSusi1%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.behance.net%252Fgallery%252F17019321%252FSign-In%253Fisa0%253D1%2523old_hash%253D%2526from_ims%253Dtrue%2526client_id%253DBehanceWebSusi1%2526api%253Dauthorize%2526scope%253DAdobeID%252Copenid%252Cgnav%252Csao.cce_private%252Ccreative_cloud%252Ccreative_sdk%252Cbe.pro2.external_client%252Cadditional_info.roles%26response_type%3Dtoken%26state%3D%257B%2522ac%2522%253A%2522behance.net%2522%252C%2522csrf%2522%253A%2522fd36cbc7-a3f7-43a1-9ca7-a95e50391713%2522%252C%2522context%2522%253A%257B%2522intent%2522%253A%2522signIn%2522%257D%252C%2522jslibver%2522%253A%2522v2-v0.38.0-17-g633319d%2522%252C%2522nonce%2522%253A%25223856921722222148%2522%257D&state=%7B%22ac%22%3A%22behance.net%22%2C%22csrf%22%3A%22fd36cbc7-a3f7-43a1-9ca7-a95e50391713%22%2C%22context%22%3A%7B%22intent%22%3A%22signIn%22%7D%2C%22jslibver%22%3A%22v2-v0.38.0-17-g633319d%22%2C%22nonce%22%3A%223856921722222148%22%7D&relay=872f2ae7-f955-4a60-9559-c4aafa5b074b&locale=en_US&flow_type=token&dctx_id=bhnc_22989526-955d-49e3-9a7d-f093e8f3dbf5&idp_flow_type=login&s_p=google%2Cfacebook%2Capple&response_type=token#/">Behance</a>&nbsp;<i class="fa fa-behance-square" aria-hidden="true" style="font-size: 20px; color: #f48840;"></i></li>
+              <li><a href="https://www.linkedin.com/login">Linkedin</a>&nbsp;<i class="fa fa-linkedin-square" aria-hidden="true" style="font-size: 20px;color: #f48840;"></i></li>
+              <li><a href="https://dribbble.com/signup/new">Dribbble</a>&nbsp;<i class="fa fa-dribbble" aria-hidden="true" style="font-size: 20px; color: #f48840;"></i></li>
+            </ul>
+          </div>
+          <div class="col-lg-12">
+            <div class="copyright-text">
+              <p>Antique Calligraphy 2023 Co.
+                    
+                 | Design: <a rel="nofollow" href="./about.html" target="_parent">Learn more.</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
 </html>
